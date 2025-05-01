@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+    color: maroon;
+}
+
+.post{
+    
+  background-color: peachpuff;
+}
+
+.user{
+    font-style: italic;
+    color: red;
+}
