@@ -18,7 +18,7 @@
 
       <div class="row row-cols-1 row-cols-md-3 mb-3 text-center ms-5">
         <div class="col">     
-            <a  href="http://localhost:<%=port%>/posts/new/" style="text-decoration: none;" >
+            <a  href="/posts/new/" style="text-decoration: none;" >
             
             <div class="card mb-4 rounded-3 shadow-sm shadow-lg p-3 mb-5 bg-body-tertiary rounded " style="width: 18rem;">
                    <div class="card-body" style=" background-color: rgb(11, 140, 187); color: white;  " >
@@ -46,9 +46,9 @@
                     </p>
                   </div>
                 <div class="card-footer">
-    <a class="btn btn-primary" style="display: inline-block;" href="http://localhost:<%=port%>/posts/<%=post.id%>/edit" style="text-decoration: none; color: white;"> edit </a> </button>
-    <a class="btn btn-primary" style="display: inline-block;" href="http://localhost:<%=port%>/posts/<%=post.id%>" style="text-decoration: none; color: white;"> view in detail </a> </button>
-                  <form method="post" style="display: inline-block;" action="http://localhost:<%=port%>/posts/<%=post.id%>?_method=DELETE">
+    <a class="btn btn-primary" style="display: inline-block;" href="/posts/<%=post.id%>/edit" style="text-decoration: none; color: white;"> edit </a> </button>
+    <a class="btn btn-primary" style="display: inline-block;" href="/posts/<%=post.id%>" style="text-decoration: none; color: white;"> view in detail </a> </button>
+                  <form method="post" style="display: inline-block;" action="/posts/<%=post.id%>?_method=DELETE">
                     <button class="btn btn-primary mt-2">Deleat</button>
                     
                     </form> 
