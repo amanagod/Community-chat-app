@@ -18,7 +18,7 @@ app.use(methodOverride('_method'));
 
 
 ////////////////////////////////////////////////////// database connection
-const urldb =`mysql://${process.env.MYSQLUSER}:${process.env.MYSQLPASSWORD}@${process.env.MYSQLHOST}:${process.env.MYSQLPORT}/${process.env.MYSQLDATABASE}`;
+const urldb =`mysql://root:QeCtYGRwzssqissVBUeXwvBAlfLDqCdl@hopper.proxy.rlwy.net:41116/railway`;
 const connection = mysql.createConnection(urldb);
 
 // const connection = mysql.createConnection({
